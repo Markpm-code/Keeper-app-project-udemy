@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+.App h1 {
+  color: #61dafb;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -22,6 +26,13 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.App-header h1 {
+  color: #61dafb;
+  background-color: #ffff;
+  width: 100%;
+  padding: 10px;
 }
 
 .App-link {
