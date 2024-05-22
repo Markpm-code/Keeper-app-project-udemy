@@ -2,6 +2,7 @@
 import './App.css';
 import Footer from './Footer';
 import Header from './Header';
+import Card from './Card';
 
 function App() {
   return (
@@ -23,6 +24,10 @@ function App() {
     // </div>
     <div>
       <Header />
+      <h1 className='App'>My Contacts</h1>
+      <Card name="Beyonce" img="./logo192.png" tel="123456" email="beyonce@gmail.com"/>
+      <Card name="Bens" img= "./chicken-fried -rice.png" tel="0874303993" email="tito@gmail.com"/>
+      <Card name="Manny Pacquaio" img= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7cIAfCeR0w9Ws7VtIOKF6CCU1hFN3w_gSNSXRHte6gw&s" tel="0876719439" email="pac@gmail.com"/>
       <Footer />
     </div>
   );
